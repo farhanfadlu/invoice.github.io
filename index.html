@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>INVOICE</title>
+  </head>
+  <body>
+    <div class="my-5 page" size="A4">
+        <div class="p-5">
+            <section class="top-content bb d-flex justify-content-between">
+                <div class="logo">
+                    <img src="img/logo.png" alt="..." class="img-fluid">
+                </div>
+                <div class="top-left">
+                  <div class="graphic-path">
+                    <p>Invoice</p>
+                  </div>
+                  <div class="position-relative">
+                    <p>Invoice No. <span>XXXX</span></p>
+                  </div>
+                </div>
+            </section>
+
+            <section class="store-user mt-5">
+              <div class="col-10">
+                <div class="row bb pb-3">
+                  <div class="col-7">
+                    <p>DITERBITKAN ATAS NAMA</p>
+                    <h2>Nama Toko</h2>
+                    <p class="address">Jl. Gatot Subroto No.289A, Cibangkong,<br>Kec. Batununggal, Kota Bandung,<br>Jawa Barat 40273</p>
+                    <div class="txn mt-2">TXN:XXXXXXX</div>
+                  </div>
+                  <div class="col-5">
+                    <p>UNTUK</p>
+                    <h2>Farhan Fadlu</h2>
+                    <p class="address">Jl. M. Wijaya Praja, Babakan Kaler, Kec. Mangkubumi, Kota Tasikmalaya, Jawa Barat 46181</p>
+                    <div class="txn mt-2">TXN:XXXXXXX</div>
+                  </div>
+                </div>
+                <div class="row extra-info pt-3">
+                  <div class="col-7">
+                    <p>Metode Pembayaran: <span>COD</span></p>
+                    <P>Nomor Order: <span>#868</span></P>
+                  </div>
+                  <div class="col-5">
+                    <P>Tanggal Pengiriman: <span>11-02-2022</span></P>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="product-area mt-4">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <td>Item Description</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="media">
+                        <img class="mr-3 img-fluid" src="img/tablet.jpg" alt="Product 01">
+                        <div class="media-body">
+                          <p class="mt-0 title">Media heading</p>
+                          Tablet terbaru di tahun 2022.
+                        </div>
+                    </div>
+                    </td>
+                    <td>Rp3.500.000</td>
+                    <td>2</td>
+                    <td>Rp7.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="media">
+                        <img class="mr-3 img-fluid" src="img/tablet-2.jpg" alt="Product 01">
+                        <div class="media-body">
+                          <p class="mt-0 title">Media heading</p>
+                          Tablet terbaru di tahun 2022.
+                        </div>
+                      </div>
+                    </td>
+                    <td>Rp2.000.000</td>
+                    <td>1</td>
+                    <td>Rp2.000.000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <section class="balance-info">
+              <div class="row">
+                <div class="col-8">
+                  <p class="m-0 font-weight-bold"> Note:</p>
+                  <p> Wassap bro, ini adalah kolom untuk note tambahan, saya tidak tau apa yang mau di tulis, jadi saya nulis random xixixi.</p>
+                </div>
+                <div class="col-4">
+                  <table class="table border-0 table-hover">
+                    <tr>
+                      <td>Sub Total:</td>
+                      <td>Rp9.000.000</td>
+                    </tr>
+                    <tr>
+                      <td>Pajak:</td>
+                      <td>Rp0</td>
+                    </tr>
+                    <tr>
+                      <td>Ongkos Kirim:</td>
+                      <td>Rp14.000</td>
+                    </tr>
+                    <tfoot>
+                      <tr>
+                        <td>Total:</td>
+                        <td>Rp9.014.000</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+
+                  <!-- Signature -->
+                  <div class="col-12">
+                    <img src="img/signature.png" class="img-fluid" alt="...">
+                    <p class="text-center m-0"> Director Signature </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Cart BG -->
+            <img src="img/cart.png" class="img-fluid cart-bg" alt="...">
+
+            <footer>
+              <hr>
+            </footer>
+        </div>
+    </div>
+  </body>
+</html>
